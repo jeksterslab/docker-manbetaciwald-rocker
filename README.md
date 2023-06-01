@@ -12,7 +12,7 @@ A `rocker/rstudio` container for the `manBetaCIWald` project.
 
 ## Build Docker Container
 
-The `Docker Build and Push Recurring` GitHub action builds the Docker container and pushes it to Docker Hub.
+The `Docker Build and Push` GitHub action builds the Docker container and pushes it to Docker Hub.
 
 ## Docker Run
 
