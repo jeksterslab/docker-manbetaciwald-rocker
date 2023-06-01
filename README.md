@@ -1,5 +1,5 @@
-docker-manbetaciwald-rocker
-==========================
+jeksterslab/manbetaciwald-rocker
+================================
 Ivan Jacob Agaloos Pesigan
 
 <!-- badges: start -->
@@ -10,17 +10,11 @@ Ivan Jacob Agaloos Pesigan
 
 A `rocker/rstudio` container for the `manBetaCIWald` project.
 
-## Build
+## Build Docker Container
 
-To build the container, run the following.
+The `Docker Build and Push Recurring` GitHub action builds the Docker container and pushes it to Docker Hub.
 
-```bash
-git clone https://github.com/jeksterslab/docker-manbetaciwald-rocker.git
-cd docker-manbetaciwald-rocker
-docker build -t manbetaciwald-rocker .
-```
-
-## Run
+## Docker Run
 
 To launch `Rstudio Server`, run the following.
 
