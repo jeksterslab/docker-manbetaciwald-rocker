@@ -10,4 +10,4 @@ MAINTAINER "Ivan Jacob Agaloos Pesigan <learn.jeksterslab@gmail.com>"
 
 # extra metadata
 LABEL version="0.9.1"
-LABEL description="manBetaCIWald_0.9.1 rocker/verse container."
+LABEL description="manBetaCIWald_0.9.1 rocker container."
