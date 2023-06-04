@@ -8,7 +8,7 @@ Ivan Jacob Agaloos Pesigan
 
 ## Description
 
-A `rocker/rstudio` container for the [manBetaCIWald](https://github.com/jeksterslab/manBetaCIWald) project.
+A Docker container for the [manBetaCIWald](https://github.com/jeksterslab/manBetaCIWald) project based on the [Rocker Project](https://rocker-project.org/).
 
 ## Run
 
