@@ -1,13 +1,11 @@
 FROM jeksterslab/rocker
 
-ADD src /usr/src/local/src
-RUN chmod 777 /usr/src/local/src/setup.sh         && \
-    ./usr/src/local/src/setup.sh                  && \
+ADD scripts /usr/src/local/src
+RUN cd /usr/src/local/src     && \
+    chmod 777 setup.sh        && \
+    ./setup.sh                && \
     rm -rf /usr/src/local/src
 
-# author
-MAINTAINER "Ivan Jacob Agaloos Pesigan <learn.jeksterslab@gmail.com>"
-
 # extra metadata
-LABEL version="0.9.1"
-LABEL description="manBetaCIWald_0.9.1 rocker container."
+LABEL org.opencontainers.image.source="https://github.com/jeksterslab/docker-manbetaciwald-rocker" \
+      org.opencontainers.image.authors="Ivan Jacob Agaloos Pesigan <learn.jeksterslab@gmail.com>"
