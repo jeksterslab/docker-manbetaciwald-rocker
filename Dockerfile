@@ -1,4 +1,4 @@
-FROM jeksterslab/rocker
+FROM rocker/rstudio@sha256:eb26ffeeb423e96e47ed0ad8d176612e90a0b5188251c5d7c8f8df0741fd58e9
 
 ADD scripts /usr/src/local/src
 RUN cd /usr/src/local/src     && \
